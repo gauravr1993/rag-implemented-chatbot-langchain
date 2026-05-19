@@ -1,0 +1,82 @@
+[
+  {
+    "query": "Which district in Jharkhand has shown a significant decrease in Land Surface Temperature, and what could be its impact on agriculture?",
+    "ground_truth": "Districts such as Bokaro, Chatra, and Garhwa have shown significant decreases in Land Surface Temperature (LST). Cooler temperatures could extend cultivation windows for certain crops but may require adjustments in crop selection and practice to suit cooler conditions."
+  },
+  {
+    "query": "What does a negative DPPD score for Leaf Area Index (LAI) indicate for Jharkhand districts?",
+    "ground_truth": "A negative DPPD score for LAI indicates a reduction in vegetation density or green leaf area, possibly due to plant stress or seasonal change, which could impact photosynthesis and crop yield."
+  },
+  {
+    "query": "How are improvements in NDVI interpreted in the district summaries?",
+    "ground_truth": "An improved or positive NDVI (Normalized Difference Vegetation Index) suggests healthier and more robust vegetation, which is favorable for crop growth despite other challenging factors."
+  },
+  {
+    "query": "What risks do increasing Nitrogen Dioxide (NO2) levels pose to crops in these districts?",
+    "ground_truth": "Increasing NO2 levels, as seen in districts like Garhwa and Hazaribagh, can be harmful to both human health and some sensitive crops, necessitating air quality management strategies."
+  },
+  {
+    "query": "Suggest water management strategies for districts with moderate or declining soil moisture.",
+    "ground_truth": "Strategies such as precision or drip irrigation, mulching, rainwater harvesting, and choosing drought-resistant crop varieties are recommended to optimize the use of moderate or declining soil moisture levels."
+  },
+  {
+    "query": "Which indices indicate favorable conditions for robust vegetation health?",
+    "ground_truth": "A high or positive NDVI and a positive NDWI (Normalized Difference Water Index) indicate favorable conditions for robust vegetation health and adequate water content in plants."
+  },
+  {
+    "query": "What practices are suggested for districts with declining LAI but high NDVI?",
+    "ground_truth": "Where LAI is declining but NDVI remains high, as in several districts, it's suggested to implement agronomic practices that boost leaf health, such as using cover crops, proper fertilization, and diversified cropping to maximize the benefits of overall vegetation vigor."
+  },
+  {
+    "query": "How does particulate matter (PM2.5) trend affect farming recommendations?",
+    "ground_truth": "Low or declining PM2.5 levels are positive for crop and human health. However, monitoring for increases and implementing buffer zones or air-purifying plants is advised if trends reverse."
+  },
+  {
+    "query": "What is the significance of a positive NDWI score in the summaries?",
+    "ground_truth": "A positive NDWI score reflects better water content in vegetation, supporting healthy plant growth and reducing the risk of drought stress."
+  },
+  {
+    "query": "Give examples of climate-resilient farming techniques advised in these summaries.",
+    "ground_truth": "Techniques include crop diversification, using drought-resistant varieties, mulching, cover cropping, integrated pest management, soil and water conservation, and technological monitoring of soil and air quality."
+  },
+  {
+    "query": "How should farmers adapt their crop choices according to cooling temperature trends?",
+    "ground_truth": "Farmers are advised to choose crops that are resilient to cooler conditions, adjust planting dates to suit longer or shorter seasons, and use protective methods like mulching or agrotextiles."
+  },
+  {
+    "query": "Why is air quality monitoring important according to the district summaries?",
+    "ground_truth": "Rising pollutants like NO2 and, in some districts, increasing PM2.5, can adversely affect crop health, so regular air quality monitoring helps in timing operations and choosing resistant crop varieties."
+  },
+  {
+    "query": "What are common recommendations for districts with moderate soil moisture?",
+    "ground_truth": "Maintain or improve soil moisture through appropriate irrigation, mulching, use of organic matter, and regular monitoring to ensure sustainability during drier periods."
+  },
+  {
+    "query": "List some ways to manage vegetation stress indicated by declining LAI.",
+    "ground_truth": "Manage vegetation stress by improving soil fertility, using cover and rotation crops, selecting disease-resistant varieties, and ensuring optimal irrigation and pest management."
+  },
+  {
+    "query": "Which physical barriers are suggested for air pollution management in the districts?",
+    "ground_truth": "Tree lines, buffer zones with tall plants, and agroforestry practices are recommended as physical barriers to reduce the impact of air pollution on crops."
+  },
+  {
+    "query": "What role does regular soil and water testing play in the provided advice?",
+    "ground_truth": "Regular soil and water testing is vital for timely applications of water, fertilizer, and amendments, protecting crop health amid fluctuating environmental conditions and pollution levels."
+  },
+  {
+    "query": "How should farmers address both positive NDVI and declining NDWI?",
+    "ground_truth": "Despite healthy vegetation (positive NDVI), declining NDWI suggests decreasing water content; thus, irrigation efficiency and water conservation should be prioritized to sustain crop growth."
+  },
+  {
+    "query": "Why is crop diversification recommended based on the district data?",
+    "ground_truth": "Crop diversification increases resilience to variable conditions, spreading risk, and adapting to issues like temperature shifts, water availability, and air pollution trends."
+  },
+  {
+    "query": "What technologies are suggested for monitoring and improving agricultural outcomes?",
+    "ground_truth": "Remote sensing, GIS data, and real-time monitoring tools for LST, NDVI, soil moisture, and air quality are advised to guide informed decisions on crop management, pest control, and harvesting."
+  },
+  {
+    "query": "Summarize the role of NDVI in guiding farmer recommendations across districts.",
+    "ground_truth": "NDVI is used to assess vegetation health and inform practices like fertilization, irrigation, and crop selection, guiding interventions even when other indicators (like LAI or soil moisture) are less favorable."
+  }
+]
