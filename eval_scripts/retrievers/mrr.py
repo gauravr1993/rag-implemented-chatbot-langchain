@@ -1,24 +1,31 @@
+import sys
 import json
+from pathlib import Path
+
+# Add project root to path so imports work correctly
+PROJECT_ROOT = Path(__file__).parent.parent.parent
+sys.path.insert(0, str(PROJECT_ROOT))
+
 from langchain.vectorstores import FAISS
 from langchain.embeddings import HuggingFaceEmbeddings
 from sentence_transformers import SentenceTransformer, util
 
-from src.config import VECTORSTORE_PATH
-
 # Load SentenceTransformer model for semantic similarity check
 st_model = SentenceTransformer("all-mpnet-base-v2")
 
-# Load embeddings and FAISS vector store
+# Load embeddings and FAISS vector store with absolute paths
+vectorstore_path = PROJECT_ROOT / "vectorstore" / "faiss_index"
 embedding_model = HuggingFaceEmbeddings(model_name="sentence-transformers/all-mpnet-base-v2")
-db = FAISS.load_local(VECTORSTORE_PATH, embedding_model, allow_dangerous_deserialization=True)
+db = FAISS.load_local(str(vectorstore_path), embedding_model, allow_dangerous_deserialization=True)
 
 retriever = db.as_retriever(
     search_type="similarity_score_threshold",
     search_kwargs={"k": 5, "score_threshold": 0.3}  # use larger k for MRR evaluation
 )
 
-# Load test set
-with open("rag_test_queries.json", "r") as f:
+# Load test set with absolute path
+test_queries_path = PROJECT_ROOT / "eval_scripts" / "retrievers" / "rag_test_queries.json"
+with open(test_queries_path, "r") as f:
     test_data = json.load(f)
 
 # Run Retrieval Evaluation for MRR

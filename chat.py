@@ -6,7 +6,7 @@ import uuid, threading
 from src.pipeline import run_pipeline
 
 
-# Load Retriver
+# Load Retriever
 @st.cache_resource
 def load_retriever():
     return run_pipeline()
