@@ -253,7 +253,7 @@ python eval_scripts/ragas_eval.py
 
 ## Data Source
 
-District-level agricultural data for 24 Jharkhand districts sourced from [DICRA (Data in Climate-Resilient Agriculture)](https://dicra.unep-wcmc.org/) — a UNEP initiative providing open agricultural datasets for India.
+District-level agricultural data for 24 Jharkhand districts sourced from [DICRA (Data in Climate-Resilient Agriculture)](https://dicra.nabard.org/) — a UNEP initiative providing open agricultural datasets for India.
 
 ---
 
